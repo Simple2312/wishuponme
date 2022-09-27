@@ -1,0 +1,85 @@
+body{
+    
+
+  background-color: #18387c;
+  background:url("alien.jpg") center/cover no-repeat ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  }
+
+  
+  #container{
+    width: 50%;
+    height: 650px;
+    border-radius: 10px;
+    left:30px;
+    
+  }
+  
+   
+  #inner_container{
+    width: auto;
+    height: 80%;
+    box-shadow: 0px 0px 36px -22px #2B2D42;
+    float: left;
+    margin-bottom: 23px;
+    align-self: start;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  
+  }
+  
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    color: rgb(168, 0, 173);
+    align-items: center;
+   
+  
+  }
+  
+  #button_container{
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  button{
+    width: 35%;
+    height: 90%;
+   font-size: 20px;
+    color: white;
+    border: 20px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #f70a64;
+    padding: 10px;
+    font-family: cursive;
+  }
+  
+  button:hover{
+    transition: 0.05s;
+    background-color: #45014e;
+    box-shadow: 0 0 30px -10px #f70a64;
+  }
+  
+  button:active{
+    transform: translateY(20px);
+   
+  }
+  h1{
+  
+    color: whitesmoke;
+    font-family:monospace;
+    position:fixed ;
+    font-size: large;
+    align-items: baseline;
+    
+} 

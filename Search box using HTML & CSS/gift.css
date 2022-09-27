@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+
+  background: #0f0c29;
+  background: -webkit-radial-gradient(center, #0f0c29, #302b63, #24243e);
+  background: -moz-radial-gradient(center, #0f0c29, #302b63, #24243e);
+  background: radial-gradient(ellipse at center, #0f0c29, #302b63, #24243e);
+  background:url("7119.jpg") center/cover no-repeat ;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    
+}
+.container h6{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.856);
+    font-family: 'Dancing Script', cursive;
+    border-radius: 20px;
+}
+.quotes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 20px;
+}
+.inner-quotes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    min-height: 400px;
+    padding: 0px 25px;
+    color: gray;
+    border-radius: 10px;
+    background-color: #16074dad;
+    border: 10px solid #0f0c29;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+.inner-quotes-container p{
+    font-size: 1rem;
+    color: rgba(250, 248, 248, 0.897);
+    border-radius: 20px;
+    
+}
+  
+.inner-quotes-container h3{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.856);
+    font-family: 'Dancing Script', cursive;
+    border-radius: 20px;
+}
+  
+button{
+    background: #0f0c29;
+    color: white;
+    border: 5px solid #302b63;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    font-size: large;
+    
+}
+  button:hover{
+    transition: 0.05s;
+    background-color: #45014e;
+    transform: rotateZ(-10deg);
+    box-shadow: 0 0 30px -10px #f70a64;
+  }
+.quote-btn{
+    padding-top: 25px;
+}
+@media(max-width:1280px){
+    .container{
+        width: 95%;
+    }
+}
+@media(max-width:900px){
+    .inner-quotes-container{
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    .inner-quotes-container p{
+        font-size: 1.2rem;
+    }
+    .inner-quotes-container h3{
+        font-size: 1.5rem;
+    }
+}

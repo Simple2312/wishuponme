@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surprise gift</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="gift.css">
+    <script src ="gift.js" defer></script>
+    <script type="text/javascript">
+        function disableButton(btn) {
+            document.getElementById(btn.id).disabled = true;
+            alert("Thank you!! your tour has now come to an end.");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h6 style="color:white">I have a secret message for you. its hidden in here. Did you get it?
+        </h6>
+        <div class="quotes-container">
+            <div class="inner-quotes-container">
+                <p id="quote"></p>
+                <h3 id="author"></h3>
+            </div>
+            <div class="quote-btn">
+                <button style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" id="generate" onclick="disableButton(this)">show me</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
